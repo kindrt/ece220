@@ -1,6 +1,6 @@
 .ORIG x3000
 
-; read first
+; read status bit first
 POLL1 LDI  R0, KBSR
 BRzp POLL1
 LDI  R0, KBDR
