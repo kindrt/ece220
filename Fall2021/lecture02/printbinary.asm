@@ -1,7 +1,7 @@
 .ORIG x3000
 
 ; fill R0 with something
-LD R0, VALUE
+LD R0, VALUE ; see VALUE .FILL
 
 ; initialize registers
 AND R1, R1, #0
