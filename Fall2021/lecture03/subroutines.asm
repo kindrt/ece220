@@ -1,5 +1,5 @@
 ; this program uses two subroutines, SUBTR and MULT, to compute (a-b)*c
-; limitation: it only works when (a-b) is positive!
+; limitation: it only works when (a-b) is positive! 
 
 .ORIG x3000
 
