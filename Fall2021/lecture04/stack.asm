@@ -96,6 +96,7 @@ POP
 ;
      ADD R4, R4, #1  ; move top of the stack
      LDR R0, R4, #0   ; read value from the stack
+     ; STR R5, R4, #0 ; uncomment this line if you want memory cleared after POP
      ST R4, STACK_TOP ; store top of stack pointer
      BRnzp DONE_POP
 ;
