@@ -1,0 +1,7 @@
+0011 0000 0000 0000 ; .ORIG x3000
+
+; either one of these two lines of code will generate an exeption
+1101 0000 0000 0000 ; call a nonexistent opcode #13
+1000 0000 0000 0000 ; call RTI in unprivileged mode
+
+1111 000000100101   ; HALT
