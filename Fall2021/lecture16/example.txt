@@ -1,0 +1,9 @@
+The C programming language 
+provides many standard library functions 
+for file input and output. 
+These functions 
+make up the bulk of the C standard 
+library header <stdio.h>. 
+The functionality descends from a "portable I/O package" 
+written by Mike Lesk at Bell Labs in the early 1970s, 
+and officially became part of the Unix operating system in Version 7.
