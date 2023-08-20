@@ -2,4 +2,5 @@
 
 Code for my ECE220 course
 
-To switch to Fall 2023 semester branch, run 'git checkout Fall23'
+First, clone this repo.
+Next, to switch to Fall 2023 semester branch, simply run 'git checkout Fall23'
