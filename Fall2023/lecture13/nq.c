@@ -2,14 +2,14 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-#define N 40
+#define N 20
 
-bool Solve(int board[N][N], int col);
-bool IsSafe(int board[N][N], int row, int col);
-void printSolution(int board[N][N]);
+bool Solve(int board[][N], int col);
+bool IsSafe(int board[][N], int row, int col);
+void printSolution(int board[][N]);
 
 
-void clearBoard(int board[N][N])
+void clearBoard(int board[][N])
 {
     int i, j;
     
@@ -34,7 +34,7 @@ int main()
      return 0;
 }
 
-void printSolution(int board[N][N])
+void printSolution(int board[][N])
 {
     int i, j;
     
@@ -46,7 +46,7 @@ void printSolution(int board[N][N])
      }
 } 
 
-bool IsSafe(int board[N][N], int row, int col)
+bool IsSafe(int board[][N], int row, int col)
 {
    int i, j;
 
@@ -65,7 +65,7 @@ bool IsSafe(int board[N][N], int row, int col)
    return true;
 }
 
-bool Solve(int board[N][N], int col)
+bool Solve(int board[][N], int col)
 {
       int row;
        
