@@ -53,6 +53,7 @@ void List<T>::removeFront() {
         deletor = head_;
         head_ = head_->next;
         delete deletor;
+        length_--;
     }
 }
 
@@ -98,6 +99,7 @@ void List<T>::clear() {
         head_ = head_->next;
         delete deletor;
     }
+    length_ = 0;
 }
 
 template <class T>
